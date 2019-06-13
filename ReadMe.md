@@ -1,7 +1,7 @@
 ## [Parser HtmlGenerator](https://informacja.github.io/Parser-HtmlGenerator/)
 Projekt na zaliczenie pierwszego roku *Programowania Obiektowego* napisany w języku Kotlin<br>
 
-Program jest prostą inplementacją JavaDoc. [Wygenerowany html](https://informacja.github.io/Parser-HtmlGenerator/)
+Program jest prostą inplementacją JavaDoc
 
 ## Schemat działania
 * Do programu jako parametry podajemy ścieżki do plików<br>
