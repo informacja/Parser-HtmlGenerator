@@ -787,8 +787,11 @@
     new WOW().init();
 
     $(function(){
-        $(".doc").load("../doc.html");
-        $(".generated-content").load("../intro.html");
+        $(".doc").load("../../doc.html");
+        $(".doc").load("./../doc.html");
+        $(".doc").load("./doc.html");
+        $(".doc").load("doc.html");
+        //$(".generated-content").load("../intro.html");
     });
   </script>
 </body>
