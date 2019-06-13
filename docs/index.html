@@ -723,7 +723,7 @@
       </a>
     </div>
     <!--/.Call to action-->
-
+  <div data-includeHTML="doc.html"></div>
     <hr class="my-4">
 
     <!-- Social icons -->
@@ -787,9 +787,9 @@
     new WOW().init();
 
     $(function(){
-
+		// temporary files location, for /docs directory in GitHub
         $(".doc").load("doc.html");
-        //$(".generated-content").load("../intro.html");
+        $(".generated-content").load("intro.html");
     });
   </script>
 </body>
